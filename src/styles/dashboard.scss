@@ -1,0 +1,146 @@
+.dashboard-container{
+    background:#E5E5E5;
+    width: 100%;
+    min-height: 100%;
+.dashboard-container-body{
+    padding: 4rem 4rem 2rem 1.5rem;
+    .dashboard-container-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        /* or 122% */
+    
+        letter-spacing: -0.02em;
+    
+        color: #000000;
+        margin-bottom: 1.5rem;
+    }
+    .table-container1{
+    max-width: 100%;
+    width: 100%;
+        height: auto;
+        // background-color: #fff;
+        .tableCell1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+        
+        
+        /* AUDEO Blue */
+        
+        color: #081494;
+       
+        span{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 125.02%;
+            /* identical to box height, or 14px */
+            
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            
+            color: #39DA8A;
+            background: #D9FCEA;
+            border-radius: 35px;
+          padding: 4px;
+        }
+        }
+        .tableCell2{
+            /* Text lg/Medium */
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            /* identical to box height, or 156% */
+            
+            
+            /* Gray/500 */
+            
+            color: #667085;
+        }
+        .tableCell3{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height, or 150% */
+            
+            
+            color: #304156;
+        }
+        .tableCell4{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            /* identical to box height, or 156% */
+            
+            
+            /* Gray/500 */
+            
+            color: #667085;
+        }
+        .view-button{
+            background: #3DB0FF;
+            border-radius: 4px;
+            /* Text xl/Semibold */
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            /* or 150% */
+            
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+            color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+    
+}
+
+@media screen and (max-width: 768px) {
+.dashboard-container {
+    background: #E5E5E5;
+    width: 100%;
+    min-height: 100vh;
+
+    .dashboard-container-body {
+        padding: 1rem 1rem 1rem 1rem;
+
+        .dashboard-container-text {
+          
+            margin-bottom: 1rem;
+        }
+
+        .table-container {
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            background-color: #fff;
+        }
+    }
+
+}
+
+
+}

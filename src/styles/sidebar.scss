@@ -1,0 +1,106 @@
+@import './assest.scss';
+.sidebar-container{
+   
+    min-height: 100vh;
+    // background-color: #fff;
+    .center{
+        margin-top: 3rem;
+        .Sidebar-Purchasee-List{
+            display: flex;
+            flex-direction: column;
+            span:nth-child(1){
+                color: #081494;
+            }
+           span{
+       
+            margin-left: 6rem;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        
+        color: #8C8C8C;
+        padding-bottom: .5rem;
+           }
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+                li {
+                    display: flex;
+                    align-items: center;
+                    padding: 5px;
+                   margin-left: 3rem;
+                   margin-bottom: 1.5rem;
+                    cursor: pointer;
+                    text-decoration: none;
+                    // justify-content: center;
+                
+                  
+                   
+                
+                    span {
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    
+                    /* Light Gray */
+                    
+                    color: #C4C4C4;
+                   margin-left: 2rem;
+                    }
+                }
+        }
+        .shopCartBox{
+            background-color: darkblue;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+          text-align: center;
+          box-shadow: $boxshadow;
+        }
+        .logOut{
+            margin-top: 3rem;
+            span{
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                
+                color: #000000;
+            }
+            .rotate{
+            transform: rotate(180deg);
+            }
+        }
+    }
+  .sidebarPayment{
+    background: #081494;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: none;
+    width:220.43px;
+    height: 73px;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        box-shadow: $boxshadow;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+      
+  }
+}
